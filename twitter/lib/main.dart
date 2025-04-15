@@ -99,6 +99,8 @@ class _MyHomePageState extends State<MyHomePage> {
       developer.log('Image: ${tweet.image}');
       developer.log('Parent ID: ${tweet.parentId}');
       developer.log('ID: ${tweet.id}');
+      // ignore: avoid_print
+      ('Tweet: ${tweet.text}');
       
 
     }
